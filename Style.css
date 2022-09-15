@@ -1,0 +1,30 @@
+#img-arredondada{
+    border-radius: 50%;
+    width: 200px;
+}
+body{
+    background-color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+}
+*{
+    text-align: center;
+}
+h1, h2{
+    text-decoration: underline;
+}
+
+
+
+#ul-indice li{
+    font-size: 20px;
+    list-style: none;
+}
+#ul-habilidades li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#ul-habilidades h4{
+    height: 1px;
+}
