@@ -12,7 +12,7 @@ a:hover{
 body{
     width: 70%;
     font-family: 'Josefin sans';
-    margin-left: 30px;
+    margin-left: auto;
 }
 .ul-indice{
     /* border: 5px solid black; */
@@ -84,21 +84,20 @@ body{
 }
 /*             -------------------                   */
 .secao-4{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 80%;
 }
-
-
-
-
-
-
-
+#line-format{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
 
 /*             -------------------                   */
 
 .secao-5{
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     width: 80%;
 }
 
