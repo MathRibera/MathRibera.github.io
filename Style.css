@@ -9,9 +9,13 @@ a:visited, a:link{
 a:hover{
     color: aqua;
 }
-body{
+.tudo{
+    margin: auto;
+    width: 900px;
     border: 1px aqua solid;
-    width: 70%;
+}
+body{
+    display: flex;
     margin-top: 1px;
     font-family: 'Josefin sans';
     margin-left: auto;
@@ -19,7 +23,7 @@ body{
 }
 .ul-indice{
     /* border: 5px solid black; */
-    width: 80%;   
+    width: 100%;   
 }
 .ul-indice ul{
     vertical-align: middle;
@@ -37,21 +41,18 @@ body{
     text-decoration: none;
     padding: 5px 5px;
     margin: auto;
-    background-color: green;
+    background-color: brown;
 }
 
 .big-box{
     margin-top: 10px;
     /* border: 5px solid orangered; */
-    display: inline-flex;
-    width: 80%;
+    display: inline-block;
+    width: 100%;
 }
 .big-box img{
     border-radius: 50%;
     margin-right: 10px;
-}
-.many-boxes{
-    margin: auto;
 }
 .img-esquerda{
     float: left;
@@ -59,7 +60,7 @@ body{
 /*             -------------------                   */
 .secao-2{
     /* border: 5px solid green; */
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -74,7 +75,7 @@ body{
 /*             -------------------                   */
 .secao-3{
     /* border: 5px solid brown; */
-    width: 80%;
+    width: 100%;
     margin-bottom: 5px;
 }
 .secao-3 h2{
@@ -88,7 +89,7 @@ body{
 /*             -------------------                   */
 .secao-4{
     /* border: 5px solid black; */
-    width: 80%;
+    width: 100%;
 }
 #line-format{
     text-decoration: none;
@@ -101,12 +102,16 @@ body{
 
 .secao-5{
     /* border: 5px solid orange; */
-    width: 80%;
+    width: 100%;
 }
 
 
 /*             -------------------                   */
-#indice{
+#habilidades{
+    text-decoration: underline;
+    list-style: none;
+}
+#o-habilidades{
     text-decoration: underline;
     list-style: none;
 }
