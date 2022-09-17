@@ -5,76 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio Matheus Jorge</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="Style.css" />
   </head>
   <body>
-    <ul id="ul-indice">
-      <li><a href="#habilidades-orgulho">Principais Habilidades</a></li>
-      <li><a href="#outras-habilidades">Outras Habilidades</a></li>
-    </ul>
+    <!-- Navegação -->
+    <div class="tudo">
+    <div class="ul-indice">
+      <ul>
+        <li><a href="#habilidades">Principais Habilidades</a></li>
+        <li><a href="#o-habilidades">Outras Habilidades</a></li>
+      </ul>
+    </div>
 
-    <h1>Matheus Jorge Soares Ribera</h1>
-    <h3>
-      Brasileiro, Solteiro, 24 anos <br />
-      E-mail: Bs.fenixfl@gmail.com <br />
-      Contato: (15) 99999-9999 <br />
-      Endereço: Monsenhor Soares, 000 - Itapetininga, SP <br />
-    </h3>
-    
-    <img id="img-arredondada" src="data:image/png;base64,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" alt="Imagem" />
+    <!-- Seção 1 -->
+    <div class="big-box">
+      <div class="img-esquerda">
+        <img
+          src="data:image/png;base64,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"
+          alt="Imagem"
+        />
+      </div>
+      <div class="many-boxes">
+        <h1 id="indice">Matheus Jorge Soares Ribera</h1>
+        <h3>
+          Brasileiro, Solteiro, 24 anos <br />
+          E-mail: Bs.fenixfl@gmail.com <br />
+          Contato: (15) 99999-9999 <br />
+          Endereço: Monsenhor Soares, 000 - Itapetininga, SP <br />
+        </h3>
+      </div>
+    </div>
 
-    <h2>Formação:</h2>
-    <h3>Estudando na Trybe - <strong>Turma 27 - Set/2022</stron></h3>
+    <!-- Seção 2 -->
+    <div class="secao-2">
+      <h2 id="indice">Formação:</h2>
+      <h3>Estudando na <em>Trybe</em> - Turma 27  <br> Conclusão: Set/2023</h3>
 
-    <h2>Expectativas</h2>
-    <h4><em>Futuro Desenvolvedor Beck End '-'</em></h4>
+      <h2 id="indice">Expectativas</h2>
+      <h4><em>Futuro Desenvolvedor Beck End '-'</em></h4>
+    </div>
+    <!-- Seção 3 -->
 
-    <h2>Redes Sociais</h2>
-    <h2>
-      <a href="" target="_blank">LinkedIn</a><br />
-      <a href="https://github.com/MathRibera" target="_blank">GitHub</a>
-    </h2>
+    <div class="secao-3">
+      <h2 id="indice">Redes Sociais</h2>
+      <h2>
+        <a href="" target="_blank">LinkedIn</a><br />
+        <a href="https://github.com/MathRibera" target="_blank">GitHub</a>
+      </h2>
+    </div>
 
-    <ul id="ul-habilidades">
-      <h2>Habilidades que mais me orgulho</h2>
-      <li>Proativo</li>
-      <li>Facilidade em aprender</li>
-      <li>Compartilhar conhecimento</li>
-      <li>Comprometimento</li>
-      <li>Empatia</li>
-      <br>
-    </ul>
+    <div class="secao-4">
+      <h2 id="habilidades">Habilidades que mais me orgulho</h2>
+      <ul id="line-format">
+        <li>Proativo</li>
+        <li>Facilidade em aprender</li>
+        <li>Compartilhar conhecimento</li>
+        <li>Comprometimento</li>
+        <li>Empatia</li>
+        <br />
+      </ul>
+    </div>
 
-    <ul id="ul-habilidades">
-      <h2>Outras Habilidades</h2>
-      <strong
-        ><em
-          >Se houver [x] é porque tenho conhecimento, se estiver em [ ], é
-          porque estou me desenvolvendo!</em
-        ></strong
-      >
-      <li>[x] UNIX & SHELL</li>
-      <li>[x] HTML 5</li>
-      <li>[ ] CSS</li>
-      <li>[ ] JAVASCRIPT</li>
-      <li>[ ] JS AVANÇADO</li>
-      <li>[ ] REACT</li>
-      <li>[ ] METODOLOGIA ÁGEIS</li>
-      <li>[ ] REDUX</li>
-      <li>[ ] API</li>
-      <li>[ ] SQL</li>
-      <li>[ ] NODE.JS</li>
-      <li>[ ] Arquitetura de Software</li>
-      <li>[ ] DEPLOY</li>
-      <li>[ ] TYPESCRIPT</li>
-      <li>[ ] MONGODB</li>
-      <li>[ ] VPS</li>
-      <li>[ ] PYTHON</li>
-      <li>[ ] ALGORITMOS</li>
-      <li>[ ] ESTRUTURA DE DADOS</li>
-    </ul>
+    <div class="secao-5">
+      <h2 id="o-habilidades">Outras Habilidades</h2>
+      <ul id="line-format">
+        <strong
+          ><em
+            >Se houver [x] é porque tenho conhecimento, se estiver em [~], é
+            porque estou APRENDENDO!</em
+          ></strong
+        >
+        <li>[x] UNIX & SHELL</li>
+        <li>[~] HTML 5</li>
+        <li>[~] CSS</li>
+        <li>[ ] JAVASCRIPT</li>
+        <li>[ ] JS AVANÇADO</li>
+        <li>[ ] REACT</li>
+        <li>[ ] METODOLOGIA ÁGEIS</li>
+        <li>[ ] REDUX</li>
+        <li>[ ] API</li>
+        <li>[ ] SQL</li>
+        <li>[ ] NODE.JS</li>
+        <li>[ ] Arquitetura de Software</li>
+        <li>[ ] DEPLOY</li>
+        <li>[ ] TYPESCRIPT</li>
+        <li>[ ] MONGODB</li>
+        <li>[ ] VPS</li>
+        <li>[ ] PYTHON</li>
+        <li>[ ] ALGORITMOS</li>
+        <li>[ ] ESTRUTURA DE DADOS</li>
+      </ul>
+    </div>
+  </div>
   </body>
 </html>
