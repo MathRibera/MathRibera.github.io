@@ -1,117 +1,119 @@
-*{
-    background-color: grey;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-a:visited, a:link{
-    color: black;
+/* .background-index{
+    background-image: url(https://cdn.wallpapersafari.com/81/12/N9oBIc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+a:link,
+a:visited {
+  color: rgb(12, 12, 13);
+  text-decoration: none;
 }
-a:hover{
-    color: aqua;
+body {
 }
-.tudo{
-    margin: auto;
-    width: 900px;
-    border: 1px aqua solid;
+.main {
+  width: 100%;
+  background-color: #118ab2;
 }
-body{
-    display: flex;
-    margin-top: 1px;
-    font-family: 'Josefin sans';
-    margin-left: auto;
-    margin-right: auto;
-}
-.ul-indice{
-    /* border: 5px solid black; */
-    width: 100%;   
-}
-.ul-indice ul{
-    vertical-align: middle;
-    display: flex;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-}
-.ul-indice li{
-    padding: 10px 0;
-    margin: auto;
-}
-.ul-indice a{
-    border-radius: 5%;
-    text-decoration: none;
-    padding: 5px 5px;
-    margin: auto;
-    background-color: brown;
+.menu {
+    width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
 }
 
-.big-box{
-    margin-top: 10px;
-    /* border: 5px solid orangered; */
-    display: inline-block;
-    width: 100%;
+.home-name {
 }
-.big-box img{
-    border-radius: 50%;
-    margin-right: 10px;
+.list-one {
+  margin-left: 60px;
 }
-.img-esquerda{
-    float: left;
-}
-/*             -------------------                   */
-.secao-2{
-    /* border: 5px solid green; */
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.secao-2 h2{
-    margin-top: 10px;
-}
-.secao-2 h3, h4{
-    margin-top: 5px;
-    margin-left: 10px;
+.list-one li {
+  margin-left: 20px;
+  display: inline;
 }
 
-/*             -------------------                   */
-.secao-3{
-    /* border: 5px solid brown; */
-    width: 100%;
-    margin-bottom: 5px;
-}
-.secao-3 h2{
-    margin-top: 5px;
-}
-.secao-3 h2 a{
-    margin: 3px;
-    margin-left: 7px;
-    text-decoration: none;
-}
-/*             -------------------                   */
-.secao-4{
-    /* border: 5px solid black; */
-    width: 100%;
-}
-#line-format{
-    text-decoration: none;
-    list-style: none;
-    margin-left: 10px;
-    margin-top: 5px;
+.divisao {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
 }
 
-/*             -------------------                   */
-
-.secao-5{
-    /* border: 5px solid orange; */
-    width: 100%;
+.lat-esq {
+    padding-top: 50px;
+  text-align: center;
+  border-radius: 2%;
+  background-color: #06d6a0;
+  display: block;
+  margin-right: 50px;
+  width: 250px;
+}
+#face-img {
+  width: 200px;
+  border-radius: 50%;
+}
+#alignment {
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+#alignment2 {
+  border-top: 2px solid black;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.profile {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.profile img {
+  margin-bottom: 5px;
+}
+.profile h2 {
+  margin-bottom: 5px;
+}
+.profile p {
+  margin-bottom: 25px;
 }
 
-
-/*             -------------------                   */
-#habilidades{
-    text-decoration: underline;
-    list-style: none;
+.contact {
+  width: 100%;
+  display: inline-block;
 }
-#o-habilidades{
-    text-decoration: underline;
-    list-style: none;
+.list-tell img,
+h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.list-tell {
+  margin-bottom: 15px;
+  text-align: center;
+}
+#meio-contact{
+    text-align: left;
+    margin-left: 20px;
+}
+#meio-contact img,
+h4 {
+  display: inline-block;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+#meio-contact a {
+  color: black;
+}
+#meio-contact a:hover {
+  color: crimson;
+}
+#meio-contact span:hover {
+  color: black;
+}
+
+.lat-dir {
+    padding-top: 50px;
+  width: 65%;
 }
