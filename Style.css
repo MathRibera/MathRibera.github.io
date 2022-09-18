@@ -1,119 +1,117 @@
-* {
-  margin: 0;
+*{
   padding: 0;
-}
-/* .background-index{
-    background-image: url(https://cdn.wallpapersafari.com/81/12/N9oBIc.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-a:link,
-a:visited {
-  color: rgb(12, 12, 13);
+  margin: 0;
   text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
-body {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+  font-size: 100%;
 }
-.main {
-  width: 100%;
-  background-color: #118ab2;
-}
-.menu {
-    width: 80%;
+
+.tamanho{
+  background-color: #000814;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
-  text-align: center;
+  width: 100%;
 }
-
-.home-name {
-}
-.list-one {
-  margin-left: 60px;
-}
-.list-one li {
-  margin-left: 20px;
-  display: inline;
-}
-
-.divisao {
+.cabecalho{
+  width: 60%;
+  height: 65px;
   display: flex;
-  width: 80%;
-  margin-left: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
-
-.lat-esq {
-    padding-top: 50px;
-  text-align: center;
-  border-radius: 2%;
-  background-color: #06d6a0;
-  display: block;
-  margin-right: 50px;
-  width: 250px;
-}
-#face-img {
-  width: 200px;
+.cabecalho img{
   border-radius: 50%;
 }
-#alignment {
-  text-align: center;
-  margin: 10px 0 5px 0;
+.menu a{
+  color: white;
+  padding: 5px;
+  margin: 0  15px;
+  border-radius: 10px;
 }
-#alignment2 {
-  border-top: 2px solid black;
-  text-align: center;
-  margin: 0 0 20px 0;
-}
-.profile {
+.tamanho-conteudo{
+  background-color: #001d3d ;
+  display: flex;
+  color: white;
+  justify-content: center;
   width: 100%;
-  display: inline-block;
-  text-align: center;
+  height: 400px;
 }
-.profile img {
-  margin-bottom: 5px;
+.cabecalho-nome-img{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.profile h2 {
-  margin-bottom: 5px;
+.cabecalho-nome-img img{
+  background-color: #fff;
+  border-radius: 60%;
+  width: 300px;
 }
-.profile p {
-  margin-bottom: 25px;
-}
+.infos{
+  display: block;
+  justify-content: space-between;
 
-.contact {
-  width: 100%;
-  display: inline-block;
 }
-.list-tell img,
-h3 {
-  display: inline-block;
-  vertical-align: middle;
+#cont-info{
+  display: flex;
+  margin: 10px;
+  align-items: center;
 }
-.list-tell {
-  margin-bottom: 15px;
+.infos h1{
+  font-size: 25px;
+}
+.infos h3{
+  font-size: 15px;
+}
+.infos img{
+  width: 30px;
+}
+#cont-info img{
+  margin-right: 10px;
+}
+.infos a{
+  color: white;
+  padding: 5px 5px 5px 0;
+}
+a:hover{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
   text-align: center;
-}
-#meio-contact{
-    text-align: left;
-    margin-left: 20px;
-}
-#meio-contact img,
-h4 {
-  display: inline-block;
-  margin-bottom: 20px;
-  vertical-align: middle;
-}
-#meio-contact a {
   color: black;
 }
-#meio-contact a:hover {
-  color: crimson;
+.tamanho-skills{
+  background-color: #003566;
+  text-align: center;
 }
-#meio-contact span:hover {
-  color: black;
+.cabecalho-h{
+  padding-bottom: 20px;
 }
-
-.lat-dir {
-    padding-top: 50px;
-  width: 65%;
+.cabecalho-h h2{
+  color: white;
+  margin: 5px;
+}
+.cabecalho-h h1{
+  text-decoration: underline;
+  color: white;
+  padding: 20px 0 10px 0;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.tamanho-hobbies{
+  background-color: #ffc300;
+  text-align: center;
+}
+.tamanho-hobbies h1{
+  color: #000814;
+}
+.tamanho-hobbies h2{
+  color: #000814;
 }
