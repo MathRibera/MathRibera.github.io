@@ -3,7 +3,7 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body{
@@ -63,12 +63,6 @@ body{
   margin: 10px;
   align-items: center;
 }
-.infos h1{
-  font-size: 25px;
-}
-.infos h3{
-  font-size: 15px;
-}
 .infos img{
   width: 30px;
 }
@@ -101,7 +95,6 @@ a:hover{
   text-decoration: underline;
   color: white;
   padding: 20px 0 10px 0;
-  font-size: 25px;
   display: flex;
   justify-content: center;
 }
