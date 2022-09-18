@@ -1,105 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio Matheus Jorge</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="Style.css" />
-  </head>
-  <body>
-    <!-- Navegação -->
-    <div class="tudo">
-    <div class="ul-indice">
-      <ul>
-        <li><a href="#habilidades">Principais Habilidades</a></li>
-        <li><a href="#o-habilidades">Outras Habilidades</a></li>
-      </ul>
-    </div>
+<html lang="pt-BR">
 
-    <!-- Seção 1 -->
-    <div class="big-box">
-      <div class="img-esquerda">
-        <img
-          src="data:image/png;base64,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"
-          alt="Imagem"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Style.css">
+  <title>Portfolio Matheus Jorge</title>
+</head>
+
+<body>
+</body>
+
+<header>
+  <div class="tamanho">
+    <div class="cabecalho">
+      <img src="./img/perfil.png" width="60px" alt="imagem-porfolio">
+      <div class="menu">
+        <a href="" class="menu-item">Home</a>
+        <a href="" class="menu-item">About</a>
+        <a href="" class="menu-item">GitHub</a>
+        <a href="" class="menu-item">Social</a>
       </div>
-      <div class="many-boxes">
-        <h1 id="indice">Matheus Jorge Soares Ribera</h1>
-        <h3>
-          Brasileiro, Solteiro, 24 anos <br />
-          E-mail: Bs.fenixfl@gmail.com <br />
-          Contato: (15) 99999-9999 <br />
-          Endereço: Monsenhor Soares, 000 - Itapetininga, SP <br />
-        </h3>
-      </div>
-    </div>
-
-    <!-- Seção 2 -->
-    <div class="secao-2">
-      <h2 id="indice">Formação:</h2>
-      <h3>Estudando na <em>Trybe</em> - Turma 27  <br> Conclusão: Set/2023</h3>
-
-      <h2 id="indice">Expectativas</h2>
-      <h4><em>Futuro Desenvolvedor Beck End '-'</em></h4>
-    </div>
-    <!-- Seção 3 -->
-
-    <div class="secao-3">
-      <h2 id="indice">Redes Sociais</h2>
-      <h2>
-        <a href="" target="_blank">LinkedIn</a><br />
-        <a href="https://github.com/MathRibera" target="_blank">GitHub</a>
-      </h2>
-    </div>
-
-    <div class="secao-4">
-      <h2 id="habilidades">Habilidades que mais me orgulho</h2>
-      <ul id="line-format">
-        <li>Proativo</li>
-        <li>Facilidade em aprender</li>
-        <li>Compartilhar conhecimento</li>
-        <li>Comprometimento</li>
-        <li>Empatia</li>
-        <br />
-      </ul>
-    </div>
-
-    <div class="secao-5">
-      <h2 id="o-habilidades">Outras Habilidades</h2>
-      <ul id="line-format">
-        <strong
-          ><em
-            >Se houver [x] é porque tenho conhecimento, se estiver em [~], é
-            porque estou APRENDENDO!</em
-          ></strong
-        >
-        <li>[x] UNIX & SHELL</li>
-        <li>[~] HTML 5</li>
-        <li>[~] CSS</li>
-        <li>[ ] JAVASCRIPT</li>
-        <li>[ ] JS AVANÇADO</li>
-        <li>[ ] REACT</li>
-        <li>[ ] METODOLOGIA ÁGEIS</li>
-        <li>[ ] REDUX</li>
-        <li>[ ] API</li>
-        <li>[ ] SQL</li>
-        <li>[ ] NODE.JS</li>
-        <li>[ ] Arquitetura de Software</li>
-        <li>[ ] DEPLOY</li>
-        <li>[ ] TYPESCRIPT</li>
-        <li>[ ] MONGODB</li>
-        <li>[ ] VPS</li>
-        <li>[ ] PYTHON</li>
-        <li>[ ] ALGORITMOS</li>
-        <li>[ ] ESTRUTURA DE DADOS</li>
-      </ul>
     </div>
   </div>
-  </body>
+</header>
+<section>
+  <div class="tamanho-conteudo">
+    <div class="cabecalho-nome-img">
+      <img src="https://cdn-images-1.medium.com/max/1200/1*_8rYOyJj9qiQsmeoVk3Gfg.png" width="400px"
+        alt="imagem-perfil">
+      <div class="menu-info">
+        <div class="infos">
+          <div id="cont-info">
+          <img src="./img/perfil.png" alt="">
+          <h1>Matheus Jorge S., 24 years</h1>
+        </div>
+        <div id="cont-info">
+          <img src="./img/residencia.png" alt="">
+          <h3>Itapetininga, Sp, Brazil</h3>
+        </div>
+        <div id="cont-info">
+          <img src="./img/gmail.png" alt="">
+          <h3>Bs.fenixfl@gmail.com</h3>
+        </div>
+        <div id="cont-info">
+          <img src="./img/github.png" alt="">
+          <h3><a href="https://www.Github.com" target="_blank">GITHUB</a><span> <~~ CLICK ME </span></h3>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="tamanho-skills">
+    <div class="cabecalho-h">
+      <h1>Soft Skills</h1>
+      <h2>Honesty</h2>
+      <h2>Empathy</h2>
+      <h2>Flexibility</h2>
+      <h2>Team work</h2>
+      <h2>Commitment</h2>
+      <h1>Knowledge</h1>
+      <h2>HTML 5</h2>
+      <h2>CSS</h2>
+      <h2>PYTHON ( BASIC )</h2>
+      <h2>JAVASCRIPT ( BASIC )</h2>
+    </div>
+  </div>
+  <div class="tamanho-hobbies">
+    <div class="cabecalho-h">
+      <h1>HOBBIES</h1>
+      <h2>Going out and eating at restaurants</h2>
+      <h2>Playing music</h2>
+      <h2>Learning a new skill</h2>
+      <h2>Playing Pc games</h2>
+      <h2>Following technology and financial news</h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
 </html>
