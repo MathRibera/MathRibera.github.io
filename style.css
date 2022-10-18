@@ -1,110 +1,99 @@
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif, Arial, Helvetica, sans-serif;
-}
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-body{
-  font-size: 100%;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
-.tamanho{
-  background-color: #000814;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+a:visited, a{
+    text-decoration: none;
+    color: black;
 }
-.cabecalho{
-  width: 60%;
-  height: 65px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.cabecalho img{
-  border-radius: 50%;
+nav > h1{
+    margin: 10px;
 }
-.menu a{
-  color: white;
-  padding: 5px;
-  margin: 0  15px;
-  border-radius: 10px;
+body hr{
+    margin: auto;
+    width: 80%;
 }
-.tamanho-conteudo{
-  background-color: #001d3d ;
-  display: flex;
-  color: white;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.cabecalho-nome-img{
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.languages > h2{
+    margin: 10px 0 0;
+    width: 100%;
 }
-.cabecalho-nome-img img{
-  background-color: #fff;
-  border-radius: 60%;
-  width: 300px;
+.languages > img{
+    margin: 5px;
 }
-.infos{
-  display: block;
-  justify-content: space-between;
-
+.techs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-#cont-info{
-  display: flex;
-  margin: 10px;
-  align-items: center;
+.techs > h2{
+    margin: 10px 0 0;
+    width: 100%;
 }
-.infos img{
-  width: 30px;
+.techs > img{
+    margin: 5px;
 }
-#cont-info img{
-  margin-right: 10px;
+.os{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.infos a{
-  color: white;
-  padding: 5px 5px 5px 0;
+.os > h2{
+    margin: 10px 0 0;
+    width: 100%;
 }
-a:hover{
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 5px 5px 5px 5px;
-  text-align: center;
-  color: black;
+.os > img{
+    margin: 5px;
 }
-.tamanho-skills{
-  background-color: #003566;
-  text-align: center;
+.stats-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
-.cabecalho-h{
-  padding-bottom: 20px;
+.gh-stats{
+    flex-flow: wrap row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
 }
-.cabecalho-h h3{
-  color: white;
-  margin: 5px;
+.gh-stats h2{
+    width: 100%;
+    margin: 10px 0;
 }
-.cabecalho-h h1{
-  text-decoration: underline;
-  color: white;
-  padding: 20px 0 10px 0;
-  display: flex;
-  justify-content: center;
+.gh-stats img{
+    height: 170px;
+    margin: 10px ;
 }
-.tamanho-hobbies{
-  background-color: #ffc300;
-  text-align: center;
+.projects{
+    flex-flow: wrap column;
+    display: flex;
+    width: 40%;
 }
-.tamanho-hobbies h1{
-  color: #000814;
+.projects > h2{
+    position: absolute;
+    right: 20%;
+    top: 10px;
 }
-.tamanho-hobbies h3{
-  color: #000814;
+.projects ul li{
+    text-align: start;
+    list-style: none;
+    margin: 5px 0;
 }
